@@ -95,7 +95,7 @@ session_start();
      <script src="https://cdn.lordicon.com/lusqsztk.js"></script>
      <link rel="stylesheet" href="Styles/style.css">
 
-     <title>Login Page</title>
+     <title>Farmers Bank Login Page</title>
  </head>
 
  <body>
