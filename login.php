@@ -112,42 +112,58 @@ session_start();
                     echo "";
                 }
             ?>
-     <main id="mainContainer">
-         <section id="box">
-             <h2>Welcome Back</h2>
-             <p>Welcome Back! Please enter you details</p>
 
-             <form method="post">
-                 <!-- <label><img src="https://icon-library.com/images/user-icon-image/user-icon-image-20.jpg" width="20" height="20" /> Username </label>  -->
-                 <!-- <lord-icon src="https://cdn.lordicon.com/pdpnqfoe.json" trigger="loop"
-                     colors="primary:#f24c00,secondary:#66d7ee" style="width: 50px;height:50px"> -->
-                 <!-- </lord-icon> -->
-                 <label label for="user_name">Username/Email</label>
-                 <input id="text" type="text" name="user_name" placeholder="Enter UserName" required><br>
-                 <!-- <label><img src="https://www.maxpixel.net/static/photo/1x/Lock-Image-Security-Lock-Cyber-Security-Lock-Icon-1915628.png" width="26" height="25" /> Password</label>  -->
-                 <!-- <lord-icon src="https://cdn.lordicon.com/xtrjgsiz.json" trigger="loop" style="width:50px;height:50px">
-                 </lord-icon> -->
-                 <label for="password">Password</label>
-                 <input id="text" type="password" name="password" placeholder="Enter Password" required>
-                 <br><br>
+     <div class="container">
+         <div class="row px-3">
+             <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
+                 <div class="img-right d-none d-md-flex">
+                     <img src="images/nate-johnston-MRh6Kb16afE-unsplash - Copy.jpg" alt="">
+                 </div>
 
-                 <button id="button" type="submit" align="center">Log In</button>
-                 <br><br>
+                 <div class="card-body">
+                     <h4 class="title text-center mt-4">Welcome Back</h4>
+                     <p class="text-center">Welcome Back! Please enter your details</p>
+                     <form class="form-box px-3" method="post">
+                         <div class="form-input">
+                             <span><i class="fa fa-envelope-o"></i></span>
+                             <label for="user_name">Username/Email</label>
+                             <input type="email" name="user_name" placeholder="Username/Email" tabindex="10" required />
+                         </div>
+                         <div class="form-input">
+                             <span><i class="fa fa-key"></i></span>
+                             <label for="password">Password</label>
+                             <input type="password" name="password" placeholder="Password" required />
+                         </div>
 
-                 <span>Don't have an account?</span><a href="signup.php" id="suplink">Click to Signup</a><br><br>
-             </form>
+                         <div class="mb-3">
+                             <div class="custom-control custom-checkbox">
+                                 <input type="checkbox" class="custom-control-input" id="cb1" name="" />
+                                 <label class="custom-control-label" for="cb1">Remember me</label>
+                             </div>
+                         </div>
+
+                         <div class="mb-3">
+                             <button type="submit" class="btn btn-block text-uppercase">
+                                 Login
+                             </button>
+                         </div>
+
+                         <div class="text-right">
+                             <a href="#" class="forget-link"> Forget Password? </a>
+                         </div>
+
+                         <hr class="my-4" />
+
+                         <div class="text-center mb-2">
+                             Don't have an account?
+                             <a href="signup.php" class="register-link"> Register here </a>
+                         </div>
+                     </form>
+                 </div>
              </div>
-             <div id="imgDiv">
-                 <img id="logoImg" src="images/nate-johnston-MRh6Kb16afE-unsplash - Copy.jpg" />
-             </div>
-             </div>
-             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-                 integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-                 crossorigin="anonymous">
-             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-                 integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-                 crossorigin="anonymous">
-             </script>
+         </div>
+     </div>
+
  </body>
 
  </html>
