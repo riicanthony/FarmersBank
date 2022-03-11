@@ -25,8 +25,8 @@ label[for="user_name"] {
 }
 
 img {
-  width: 500px;
-  height: 500px;
+  width: 470px;
+  height: 600px;
 }
 
 .img-right {
@@ -35,8 +35,13 @@ img {
   background-size: cover;
 }
 
+#signupimg {
+  width: 10px;
+  height: 5px;
+}
+
 .card-body {
-  padding: 2rem;
+  padding: 3rem;
 }
 
 .title {

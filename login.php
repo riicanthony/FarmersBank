@@ -126,12 +126,12 @@ session_start();
                      <form class="form-box px-3" method="post">
                          <div class="form-input">
                              <span><i class="fa fa-envelope-o"></i></span>
-                             <label for="user_name">Username/Email</label>
+                             <label for="user_name">Username/Email</label><br>
                              <input type="email" name="user_name" placeholder="Username/Email" tabindex="10" required />
                          </div>
                          <div class="form-input">
                              <span><i class="fa fa-key"></i></span>
-                             <label for="password">Password</label>
+                             <label for="password">Password</label><br>
                              <input type="password" name="password" placeholder="Password" required />
                          </div>
 
