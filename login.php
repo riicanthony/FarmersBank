@@ -127,7 +127,7 @@ session_start();
                          <div class="form-input">
                              <span><i class="fa fa-envelope-o"></i></span>
                              <label for="user_name">Username/Email</label><br>
-                             <input type="email" name="user_name" placeholder="Username/Email" tabindex="10" required />
+                             <input type="text" name="user_name" placeholder="Username/Email" tabindex="10" required />
                          </div>
                          <div class="form-input">
                              <span><i class="fa fa-key"></i></span>
