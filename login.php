@@ -116,8 +116,8 @@ session_start();
      <div class="container">
          <div class="row px-3">
              <div class="col-lg-10 col-xl-9 card flex-row mx-auto px-0">
-                 <div class="img-right d-none d-md-flex">
-                     <img src="images/nate-johnston-MRh6Kb16afE-unsplash - Copy.jpg" alt="">
+                 <div class="img-right d-none d-xl-flex d-lg-flex">
+                     <img class="img-fluid" src="images/nate-johnston-MRh6Kb16afE-unsplash - Copy.jpg" alt="">
                  </div>
 
                  <div class="card-body">
