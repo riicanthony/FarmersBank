@@ -188,6 +188,59 @@
                                         <h3>Accounts</h3>
                                     </a>
                                 </div>
+                                <section class="row">
+                                    <h6>Photo</h6>
+                                    <img id="pro-pic" class="img-fluid" src="images/585e4bf3cb11b227491c339a.png"
+                                        class="rounded float-start" alt="...">
+                                </section>
+
+                                <!--Accounts page form-->
+                                <section id="acc-form" class="row">
+                                    <form class="row g-3">
+                                        <div class="col-md-12">
+                                            <label for="inputEmail4" class="form-label">Email</label>
+                                            <input type="email" class="form-control acc-input" id="inputEmail4"
+                                                value="(User's Email)" readonly>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="fullname" class="form-label">First and Last Name</label>
+                                            <input type="text" class="form-control" id="fullname">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress" class="form-label">Address</label>
+                                            <input type="text" class="form-control" id="inputAddress"
+                                                placeholder="1234 Main St">
+                                        </div>
+                                        <div class="col-12">
+                                            <label for="inputAddress2" class="form-label">Address 2</label>
+                                            <input type="text" class="form-control" id="inputAddress2"
+                                                placeholder="Apartment, studio, or floor">
+                                        </div>
+                                        <div class="col-md-12">
+                                            <label for="inputCity" class="form-label">City</label>
+                                            <input type="text" class="form-control" id="inputCity">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <label for="inputState" class="form-label">State</label>
+                                            <select id="inputState" class="form-select">
+                                                <option selected>Choose...</option>
+                                                <option>...</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                <label class="form-check-label" for="gridCheck">
+                                                    I agree to changes made
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button type="submit" class="btn btn-primary">Save Changes</button>
+                                        </div>
+                                    </form>
+                                </section>
                         </section>
 
                         <!--Settings Tab-->
