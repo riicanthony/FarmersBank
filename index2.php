@@ -11,9 +11,11 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap"
+        rel="stylesheet">
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="Styles/index.css">
@@ -26,7 +28,7 @@
 
     <div class="d-flex align-items-start">
 
-
+        <!--Navbar-->
         <nav class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">
@@ -45,10 +47,12 @@
                 type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
         </nav>
         <main class="container">
+            <!--Transactions Tab-->
             <section class="tab-content" id="v-pills-tabContent">
                 <section class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
                     aria-labelledby="v-pills-home-tab">
-                    <nav class="navbar navbar-light">
+                    <nav id="heading-nav" class="navbar navbar-light">
+
                         <div class="container-fluid">
                             <a class="navbar-brand">
                                 <h3>Transactions</h3>
@@ -126,6 +130,7 @@
                     </nav>
                 </section>
 
+                <!--Transfers Tab-->
                 <section class="tab-pane fade" id="v-pills-profile" role="tabpanel"
                     aria-labelledby="v-pills-profile-tab">
 
@@ -173,17 +178,27 @@
                                     aria-labelledby="pills-contact-tab">...</div>
                             </div>
                         </section>
+
+                        <!--Accounts Tab-->
                         <section class="tab-pane fade" id="v-pills-messages" role="tabpanel"
                             aria-labelledby="v-pills-messages-tab">
-                            ...
+                            <nav class="navbar navbar-light">
+                                <div class="container-fluid">
+                                    <a class="navbar-brand">
+                                        <h3>Accounts</h3>
+                                    </a>
+                                </div>
                         </section>
+
+                        <!--Settings Tab-->
                         <section class="tab-pane fade" id="v-pills-settings" role="tabpanel"
                             aria-labelledby="v-pills-settings-tab">
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde architecto ex, natus atque
-                                maxime
-                                numquam est perspiciatis cumque cum reiciendis eum exercitationem aliquam eveniet
-                                tempore. Sequi
-                                ea est sunt eum!</p>
+                            <nav class="navbar navbar-light">
+                                <div class="container-fluid">
+                                    <a class="navbar-brand">
+                                        <h3>Settings</h3>
+                                    </a>
+                                </div>
                         </section>
         </main>
     </div>

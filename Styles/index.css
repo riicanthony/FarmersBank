@@ -1,11 +1,16 @@
 body {
   margin-top: 80px;
-  font-family: "Roboto, Sans-Serif";
+  font-family: "Rubik", sans-serif;
 }
 
 nav {
   margin-left: 50px;
   /* margin-top: 70px; */
+}
+
+.heading-nav {
+  margin-left: 0px;
+  width: 100%;
 }
 
 .container {
